@@ -10,7 +10,6 @@ private:
     string author;
     bool isIssued;
 
-
 public:
     Book(int bookId, string bookTitle, string bookAuthor) 
         : id(bookId), title(bookTitle), author(bookAuthor), isIssued(false) {}
